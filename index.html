@@ -8,8 +8,14 @@
   
   <body style="background-color: rgb(0,0,0); color: white; text-align: center">
     <h1>been asleep for 2 years</h1>
-    <video autoplay loop> 
+    <video id="video" loop> 
       <source src="https://cdn.discordapp.com/attachments/977624791995539466/993137268938264606/kanye_west_graduation_album_cover_animation.mp4"></source>
     </video>
+  
+    <script>
+      const v = document.getElementById("video");
+      
+      v.play();
+    </script>
   </body>
 </html>
